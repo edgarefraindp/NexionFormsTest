@@ -1,0 +1,19 @@
+{
+    "users": [
+      { "id": 1, "name": "Admin", "email": "admin@example.com", "password": "RicoMcPato", "role": "admin" },
+      { "id": 2, "name": "Pedro", "email": "pedro@example.com", "password": "123456", "role": "client" },
+      { "id": 3, "name": "Paco", "email": "paco@example.com", "password": "asdfg", "role": "client" },
+      { "id": 3, "name": "Luis", "email": "luis@example.com", "password": "DGJQ$%ce$TF_3", "role": "client" }
+    ],
+    "forms": [
+      { "id": 1, "name": "Form 1", "description": "Form description 1", 
+        "fields": [ 
+            { "name": "field1", "type": "text" }, 
+            { "name": "field2", "type": "select", "options": ["option1", "option2", "option3"] } ] },
+      { "id": 2, "name": "Form 2", "description": "Form description 2", 
+        "fields": [ 
+            { "name": "field1", "type": "checkbox" }, 
+            { "name": "field2", "type": "file" }, 
+            { "name": "field3", "type": "datetime" } ] }
+    ]
+  }
